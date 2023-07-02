@@ -6,7 +6,7 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
 }
-#meunome {
+#SobreMim {
   color: #878a8f;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -18,7 +18,7 @@
 #apresentacaoinicio {
   color: #0f141e;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.750rem;
+  font-size: 2.75rem;
   font-weight: 800;
   letter-spacing: -0.045rem;
   line-height: 50px;
@@ -105,6 +105,6 @@
 }
 @media (max-width: 500px) {
   .intro {
-    font-size: 0.600rem;
+    font-size: 0.6rem;
   }
-  }
+}
