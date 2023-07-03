@@ -1,26 +1,29 @@
-body{
+body {
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   margin: 0px;
   color: black;
 }
-h1, h2, h3, p{
+h1,
+h2,
+h3,
+p {
   margin: 0px;
 }
-ul{
+ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
-img{
+img {
   max-width: 100%;
   display: block;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
-html{
-  background-color: #E5F9E0;
+html {
+  background-color: #e5f9e0;
 }
 .subtitulo {
   font-size: 8rem;
@@ -29,11 +32,9 @@ html{
   word-break: break-all;
   max-width: 4ch;
 }
-.subtitulo:hover {
+.oclin:hover {
   transition: transform 0.5s ease;
-  -xpedu-transform: scale(1.8);
-  -ms-transform: scale(1.8);
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 @media (max-width: 800px) {
