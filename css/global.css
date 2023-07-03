@@ -20,5 +20,26 @@ a{
   color: black;
 }
 html{
-  background-color: #E8EDDF;
+  background-color: #E5F9E0;
+}
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+.subtitulo:hover {
+  transition: transform 0.5s ease;
+  -xpedu-transform: scale(1.8);
+  -ms-transform: scale(1.8);
+  transform: scale(1.4);
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
 }

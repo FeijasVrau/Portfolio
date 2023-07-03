@@ -1,0 +1,130 @@
+.projetos {
+  max-width: 1600px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+
+.projeto-texto {
+  font-size: 1.375rem;
+  line-height: 1.33;
+  max-width: 60ch;
+  margin-bottom: 70px;
+  color: #878a8f;
+}
+
+.projeto-texto strong {
+  color: #535151;
+}
+
+.projetin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #e0edf7;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+.projetin:hover{
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
+}
+
+.projetin::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#2F9C95, #40C9A2);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.estrelinha {
+  position: absolute;
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  color: #d1be10;
+  font-size: 0.875rem;
+}
+
+.projeto-titulo {
+  margin-left: 70px;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.projeto-desc {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #525252;
+}
+
+.projeto-habilidades {
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.projeto-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #d3e9fa;
+  padding: 5px 10px;
+}
+.github {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px 40px;
+}
+.github img {
+  transition: transform 0.5s ease;
+}
+.github img:hover {
+  -xpedu-transform: scale(-1.2);
+  transform: scale(-1.2);
+}
+
+@media (max-width: 800px) {
+  .projetos {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+  .projeto-texto {
+    font-size: 1.25rem;
+  }
+  .estrelinha {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+}
+#greek{
+  color: #070000;
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}

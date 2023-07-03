@@ -2,9 +2,11 @@
   max-width: 75rem;
   padding: 1.875rem 1.25rem;
   margin: 6.375rem;
+  margin-left: 14rem;
   gap: 100px;
   grid-template-columns: 1fr 2fr;
   align-items: center;
+  margin-bottom: 200px;
 }
 #SobreMim {
   color: #878a8f;
@@ -66,14 +68,7 @@
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-.ProjetosT {
-  max-width: 75rem;
-  padding: 1.875rem 1.25rem;
-  margin: 6.375rem;
-  gap: 100px;
-  align-items: center;
-  text-transform: uppercase;
-}
+
 #algunsP {
   color: #878a8f;
   font-family: Arial, Helvetica, sans-serif;
