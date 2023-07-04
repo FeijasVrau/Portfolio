@@ -103,3 +103,67 @@
     font-size: 0.6rem;
   }
 }
+@media (max-width: 850px) {
+  .intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao img {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .intro {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .intro {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .intro {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .intro {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .intro {
+    margin-left: 1rem;
+  }
+}
+
+
+
+
